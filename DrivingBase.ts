@@ -1,7 +1,7 @@
 class DrivingBase {
     
     // Defined constants
-    public static readonly MOTOR_MAX_RPM = 140; // RPM of gearmotors
+    public static readonly MOTOR_MAX_RPM = 70; // RPM of gearmotors
     public static readonly WHEEL_DIAMETER = 6.5; // Diameter of wheels
     // Calculated constants
     public static readonly MOTOR_MAX_DEGPS = DrivingBase.MOTOR_MAX_RPM*6; // Max degrees/s of gearmotors
